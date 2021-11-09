@@ -1,17 +1,20 @@
-///Update the test to test the add function
+///Update the test to test the array functions
+import { addOneToEndOfArray } from './array.js';
 
 const test = QUnit.test;
+/// remove skip from test to run it
 
-test('time to test a function', (expect) => {
+test('time to test add one the end of the array', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = [1, 2, 3, 4, 5];
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = addOneToEndOfArray([1, 2, 3, 4], 5);
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+
+    expect.deepEqual(actual, expected);
 });
