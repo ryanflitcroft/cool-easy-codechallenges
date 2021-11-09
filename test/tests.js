@@ -11,3 +11,5 @@ import '../subtract-function/subtract.test.js';
 import '../multiply-function/multiply.test.js';
 // /// Import string tests here.
 import '../strings/strings.test.js';
+// /// Import array tests here.
+import '../arrays/array.test.js';
