@@ -1,5 +1,5 @@
 ///Update the test to test the multiply function
-
+import { multiply } from './multiply.js'
 const test = QUnit.test;
 
 test('multiply one number by the other (12 * 2) to equal 24', (expect) => {
