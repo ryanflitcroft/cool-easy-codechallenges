@@ -2,14 +2,14 @@
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('multiply one number by the other (12 * 2) to equal 24', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = 24;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = multiply(12, 2);
 
     //Expect
     // Make assertions about what is expected versus the actual result
