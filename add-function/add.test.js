@@ -1,4 +1,5 @@
 ///Update the test to test the add function
+import { add } from './add.js';
 
 const test = QUnit.test;
 
