@@ -1,5 +1,7 @@
 ///Update the test to test the add function
 import { length } from './strings.js';
+import { reverseString } from './strings.js';
+
 const test = QUnit.test;
 
 test('takes a string and returns the length of the string (hello returns 5)', (expect) => {
@@ -18,7 +20,7 @@ test('takes a string and returns the length of the string (hello returns 5)', (e
 
 test('takes in a string and reverses it (hello to olleh)', (expect) => {
     const expected = 'olleh';
-    const actual = reverse('hello');
+    const actual = reverseString('hello');
 
     expect.equal(actual, expected);
 });
