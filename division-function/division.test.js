@@ -1,5 +1,5 @@
 ///Update the test to test the division function
-
+import { divide } from "./division.js";
 const test = QUnit.test;
 
 test('divide one number by the other (10 / 2) to equal 5', (expect) => {
