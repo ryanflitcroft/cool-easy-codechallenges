@@ -13,3 +13,11 @@ export function reverseString(string) {
 export function concatenate(str1, str2) {
     return str1.concat(str2);
 }
+
+export function changeCase(str) {
+    if (str === str.toLowerCase()) {
+        return str = str.toUpperCase();
+    } else if (str === str.toUpperCase()) {
+        return str = str.toLowerCase();
+    }
+}

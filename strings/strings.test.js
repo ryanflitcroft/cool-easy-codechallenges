@@ -2,6 +2,7 @@
 import { length } from './strings.js';
 import { reverseString } from './strings.js';
 import { concatenate } from './strings.js';
+import { changeCase } from './strings.js';
 
 const test = QUnit.test;
 
@@ -34,7 +35,7 @@ test('takes in two strings (hello , world) and concatenates (helloworld)(', (exp
 });
 
 test('takes a string and checks if the letters are lowercase (hello returns true, HELLO returns false) if lowercase return string in uppercase, if uppercase return string in lowercase (', (expect) => {
-    const expected = true;
+    const expected = 'HELLO';
     const actual = changeCase('hello');
 
     expect.equal(actual, expected);
