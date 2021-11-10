@@ -1,5 +1,5 @@
 ///Update the test to test the add function
-
+import { length } from './strings.js';
 const test = QUnit.test;
 
 test('takes a string and returns the length of the string (hello returns 5)', (expect) => {
@@ -9,7 +9,7 @@ test('takes a string and returns the length of the string (hello returns 5)', (e
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = stringLength(hello);
+    const actual = length('hello');
 
     //Expect
     // Make assertions about what is expected versus the actual result
