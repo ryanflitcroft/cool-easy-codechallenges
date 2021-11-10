@@ -2,14 +2,14 @@
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('add one number to the other (6 + 4) to equal 10', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = 10;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = add(6, 4);
 
     //Expect
     // Make assertions about what is expected versus the actual result
