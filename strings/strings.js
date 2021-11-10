@@ -4,8 +4,8 @@ export function length(string) {
 }
 
 export function reverseString(string) {
-    const splitStr = string.split('');
-    const revStr = splitStr.reverse('');
-    const joinStr = revStr.join('');
-    return joinStr;
+    string = string.split('');
+    string = string.reverse('');
+    string = string.join('');
+    return string;
 }
