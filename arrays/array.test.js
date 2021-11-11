@@ -36,3 +36,12 @@ test('adds new item to beginning of array', (expect) => {
 
     expect.deepEqual(actual, expected);
 });
+
+test('', (expect) => {
+
+    const expected = [1, 2, 3, 4, 5];
+
+    const actual = removeFromStart([0, 1, 2, 3, 4, 5], 0);
+
+    expect.deepEqual(actual, expected);
+});
