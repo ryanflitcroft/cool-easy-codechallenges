@@ -21,3 +21,5 @@ export function changeCase(str) {
         return str = str.toLowerCase();
     }
 }
+
+
