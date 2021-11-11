@@ -1,5 +1,5 @@
 ///Update the test to test the array functions
-import { addOneToEndOfArray, removeLast, addToStart, removeFromStart } from './array.js';
+import { addOneToEndOfArray, removeLast, addToStart, removeFromStart, makeCopy } from './array.js';
 
 const test = QUnit.test;
 /// remove skip from test to run it

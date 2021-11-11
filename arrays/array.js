@@ -24,3 +24,7 @@ export function removeFromStart(array) {
     array.shift();
     return array;
 }
+
+export function makeCopy(array) {
+    return [...array];
+}
