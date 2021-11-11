@@ -18,5 +18,9 @@ export function removeLast(array) {
 export function addToStart(array, item) {
     array.unshift(item);
     return array;
+}
 
+export function removeFromStart(array) {
+    array.shift();
+    return array;
 }

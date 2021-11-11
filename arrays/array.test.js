@@ -1,5 +1,5 @@
 ///Update the test to test the array functions
-import { addOneToEndOfArray, removeLast, addToStart } from './array.js';
+import { addOneToEndOfArray, removeLast, addToStart, removeFromStart } from './array.js';
 
 const test = QUnit.test;
 /// remove skip from test to run it
@@ -37,7 +37,7 @@ test('adds new item to beginning of array', (expect) => {
     expect.deepEqual(actual, expected);
 });
 
-test('', (expect) => {
+test('removes item from beginning of array', (expect) => {
 
     const expected = [1, 2, 3, 4, 5];
 
