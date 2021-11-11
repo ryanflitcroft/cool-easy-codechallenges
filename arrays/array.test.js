@@ -45,3 +45,12 @@ test('removes item from beginning of array', (expect) => {
 
     expect.deepEqual(actual, expected);
 });
+
+test('makes a copy of an array', (expect) => {
+
+    const expected = [1, 2, 3, 4, 5];
+
+    const actual = makeCopy([1, 2, 3, 4, 5]);
+
+    expect.deepEqual(actual, expected);
+});
