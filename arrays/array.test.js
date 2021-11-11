@@ -18,3 +18,12 @@ test('time to test add one the end of the array', (expect) => {
 
     expect.deepEqual(actual, expected);
 });
+
+test('removes last item from an array', (expect) => {
+
+    const expected = [1, 2, 3, 4];
+
+    const actual = removeLast([1, 2, 3, 4, 5]);
+
+    expect.deepEqual(actual, expected);
+});
