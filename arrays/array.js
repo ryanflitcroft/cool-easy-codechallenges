@@ -10,3 +10,7 @@ export function addOneToEndOfArray(array, num1) {
     return array;
 }
  
+export function removeLast(array) {
+    array.pop();
+    return array;
+}
